@@ -19,7 +19,8 @@ This script can be used as a workaround for Synology DSM's less-than-ideal recon
 - **1.5.0**: Options are added to run external scripts at various points. Note that the scripts must be executable, and if there are spaces in the script paths, you must either escape the spaces (e.g. `NO_RECONNECT_SCRIPT=/volume1/Scripts/script\ with\ spaces.sh`) or wrap the script paths in quotes (e.g. `NO_RECONNECT_SCRIPT='/volume1/Scripts/script with spaces.sh'`). *Community-maintained scripts compatible with these features are included in the `reconnect-vpn.sh Community Scripts` directory.*
 
 
-Installation
+#### Installation
+
 We will be generally following a Synology KB article to install the script as a scheduled task in DSM.
 
 Open the Control Panel and navigate to System > Task Scheduler. Under Create > Scheduled Task, click User-defined script. This will open up a Create task window.
